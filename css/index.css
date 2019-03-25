@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.5rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -160,6 +163,25 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+#navigation {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#navigation h1 {
+  justify-content: center;
+}
+#navigation nav {
+  margin: 1rem;
+}
+#navigation nav a {
+  font-size: 1.4rem;
+  margin: 1.5rem;
+  text-decoration: none;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +191,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro #header-img {
+  display: flex;
+}
+.home .intro #header-img img {
+  justify-content: center;
+  border-radius: 0.4rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +240,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 6rem;
+  height: 3rem;
+  background: #22283A;
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #282b44;
+}
+.home .walk .walk-text .btn:hover {
+  cursor: pointer;
+  color: #23293B;
+  background-color: #81848E;
 }
 .home .walk .walk-img {
   width: 46%;
