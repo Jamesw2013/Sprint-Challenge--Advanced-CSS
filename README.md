@@ -33,14 +33,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+	
+	Adaptive websites comparatively will be easier to produce than responsive websites. They might have hard coded pixels, but only works at certain breakpoints. Responsive websites give an uninterrupted experience with media queries. This will allow the pages to expand and shrink along with the viewport. 
 
 2. Describe what it means to be mobile first vs desktop first.
 
+	Desktop first sets the max-width, and Mobile first sets the min-width. Neither are the better choice, but rather a preference. In some cases it might be better to do one or the other. Whichever you choose first will decide which style you're using first and are working on until the conditions of the the viewport are met.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+	The default value of 1 rem = 16 px. When you give a font-size of 62.5% to the html you will make 1 rem = 10px. Making it easier for most to know the outcome of multiplying variables of rem. 3 rem at font-size of 62.5% will turn out to be 30px and 1.2 rem will be 12px, and so on.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+	Preprocessing is converting code (with programs such as LESS) into different code (CSS), before it is converted by the web browser of choice and rendered into styles. It makes it easier to interpret/code for most devs rather than plain css since it comes with useful and intuitive tools such as nesting and mix-ins.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+	The best thing about preprocessing is that its intuitive, more so than regular CSS. It allows me to organize code better with different functions.
+
+	The troubling part is making sure the less-watch-compiler is running to make sure changes are being made to .less files.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
