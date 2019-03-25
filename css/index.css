@@ -276,12 +276,13 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  width: 6rem;
+  width: 9rem;
   height: 3rem;
   background: #22283A;
   color: white;
   border-radius: 0.5rem;
   border: 1px solid #282b44;
+  font-size: 1.4rem;
 }
 .home .walk .walk-text .btn:hover {
   cursor: pointer;
